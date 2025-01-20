@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="00. MainGame">
+      <UniqueIdentifier>{6049c524-1ae1-42a2-b17f-516ca52191a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj">
+      <UniqueIdentifier>{b525ecda-1eed-410d-80a1-d19fd508eb3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\00. Player">
+      <UniqueIdentifier>{6fdf7ace-fa18-407a-804e-76628f74d727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\01. Monster">
+      <UniqueIdentifier>{91301279-7e17-432f-8b1f-d88f068531c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene">
+      <UniqueIdentifier>{e0f66165-045b-4d36-b26d-aa5763b21c4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design">
+      <UniqueIdentifier>{d2fe7a91-f832-4e18-a11a-98845ccff20a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Animator">
+      <UniqueIdentifier>{be507f52-ff90-4397-9cdf-5cc49d250480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Animator\00.Animation">
+      <UniqueIdentifier>{40ace60b-3369-40a5-985a-b10ba23df709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04.Animator\01.Texture">
+      <UniqueIdentifier>{b9229462-dae8-4d52-a70b-1efc829afce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\00.AbstractFactory">
+      <UniqueIdentifier>{dfef9852-8943-4d96-a3a8-845395134f1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\01.CollisionMgr">
+      <UniqueIdentifier>{4287711f-23fa-44d4-a314-7be219938eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\02.ObjMgr">
+      <UniqueIdentifier>{2ae19fe6-4d0b-40e9-8356-4761b1b97580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\03.LineMgr">
+      <UniqueIdentifier>{5c5ead0a-fc2c-409a-abc9-5fcbf84fec16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\04.KeyMgr">
+      <UniqueIdentifier>{c847c61c-a14a-41f0-8b35-78d8f274ec8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\05.BmpMgr">
+      <UniqueIdentifier>{0211bb4b-8e5c-4407-834b-f6a08706eb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\06.SceneMgr">
+      <UniqueIdentifier>{7d62456b-70b3-4ea7-b3af-459508947e30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\07.EventMgr">
+      <UniqueIdentifier>{5cd656a5-38a6-44a2-90b9-aee60349ed80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\08.SoundMgr">
+      <UniqueIdentifier>{46faeff1-8cc2-4b0e-b20e-27f741785d10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\02.Number">
+      <UniqueIdentifier>{a5f31fc6-58c8-426b-b690-0335dab549d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\01.TestScene">
+      <UniqueIdentifier>{60e21bdb-9651-4678-bddb-60e240d68c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\02.MiniGame_Lee">
+      <UniqueIdentifier>{a95a68c7-f2ab-4f36-9558-4a3f0472bc7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\03.LineMgr\Line_lee">
+      <UniqueIdentifier>{251cc84a-6db2-4819-a3be-d487387a2da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\03.AirHockeyScene">
+      <UniqueIdentifier>{7f2cc7f8-aa4d-4d45-9843-06a50f7d3f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02.Scene\04.PingPongScene">
+      <UniqueIdentifier>{a2a263d2-2140-4302-9678-cb81fa034eb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\Hockey">
+      <UniqueIdentifier>{04d8c146-82d1-4dc8-89f9-540b713f11cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\LeeJS">
+      <UniqueIdentifier>{ac682289-8304-4d17-9d3f-cea31cc19561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01. Obj\PingPong">
+      <UniqueIdentifier>{0843ba4d-0950-40e3-8a0e-3690b220b685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\09.New_KeyMgr">
+      <UniqueIdentifier>{fa91b7b8-7c0a-42c7-a7bb-338567ba4409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03.Design\10.TimeMgr">
+      <UniqueIdentifier>{fe380c02-c814-4063-b36f-82e3f71b0141}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultWindow.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>00. MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>01. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>01. Obj\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CTexture.h">
+      <Filter>04.Animator\01.Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimation.h">
+      <Filter>04.Animator\00.Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CAnimator.h">
+      <Filter>04.Animator\00.Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>03.Design\00.AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>03.Design\01.CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>03.Design\02.ObjMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMgr.h">
+      <Filter>03.Design\03.LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>03.Design\03.LineMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>03.Design\04.KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpMgr.h">
+      <Filter>03.Design\05.BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>03.Design\05.BmpMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>03.Design\06.SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventMgr.h">
+      <Filter>03.Design\07.EventMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>02.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Number_color.h">
+      <Filter>01. Obj\02.Number</Filter>
+    </ClInclude>
+    <ClInclude Include="UI_Number.h">
+      <Filter>01. Obj\02.Number</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>02.Scene\01.TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniGame_lee.h">
+      <Filter>02.Scene\02.MiniGame_Lee</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeBlock.h">
+      <Filter>01. Obj\LeeJS</Filter>
+    </ClInclude>
+    <ClInclude Include="PipeBall.h">
+      <Filter>01. Obj\LeeJS</Filter>
+    </ClInclude>
+    <ClInclude Include="Line_lee.h">
+      <Filter>03.Design\03.LineMgr\Line_lee</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe_Button.h">
+      <Filter>01. Obj\LeeJS</Filter>
+    </ClInclude>
+    <ClInclude Include="HockeyBall.h">
+      <Filter>01. Obj\Hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="HockeyEnemy.h">
+      <Filter>01. Obj\Hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="HockeyObj.h">
+      <Filter>01. Obj\Hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="HockeyPlayer.h">
+      <Filter>01. Obj\Hockey</Filter>
+    </ClInclude>
+    <ClInclude Include="AirHockeyScene.h">
+      <Filter>02.Scene\03.AirHockeyScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PingPongScene.h">
+      <Filter>02.Scene\04.PingPongScene</Filter>
+    </ClInclude>
+    <ClInclude Include="PingPongBall.h">
+      <Filter>01. Obj\PingPong</Filter>
+    </ClInclude>
+    <ClInclude Include="New_keyMgr.h">
+      <Filter>03.Design\09.New_KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeMgr.h">
+      <Filter>03.Design\10.TimeMgr</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>00. MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>01. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>01. Obj\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>01. Obj\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CTexture.cpp">
+      <Filter>04.Animator\01.Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimation.cpp">
+      <Filter>04.Animator\00.Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CAnimator.cpp">
+      <Filter>04.Animator\00.Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>03.Design\01.CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>03.Design\02.ObjMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="LineMgr.cpp">
+      <Filter>03.Design\03.LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>03.Design\03.LineMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>03.Design\04.KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpMgr.cpp">
+      <Filter>03.Design\05.BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>03.Design\05.BmpMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>03.Design\06.SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventMgr.cpp">
+      <Filter>03.Design\07.EventMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>02.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Number_color.cpp">
+      <Filter>01. Obj\02.Number</Filter>
+    </ClCompile>
+    <ClCompile Include="UI_Number.cpp">
+      <Filter>01. Obj\02.Number</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>02.Scene\01.TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniGame_lee.cpp">
+      <Filter>02.Scene\02.MiniGame_Lee</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeBlock.cpp">
+      <Filter>01. Obj\LeeJS</Filter>
+    </ClCompile>
+    <ClCompile Include="PipeBall.cpp">
+      <Filter>01. Obj\LeeJS</Filter>
+    </ClCompile>
+    <ClCompile Include="Line_lee.cpp">
+      <Filter>03.Design\03.LineMgr\Line_lee</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe_Button.cpp">
+      <Filter>01. Obj\LeeJS</Filter>
+    </ClCompile>
+    <ClCompile Include="HockeyBall.cpp">
+      <Filter>01. Obj\Hockey</Filter>
+    </ClCompile>
+    <ClCompile Include="HockeyEnemy.cpp">
+      <Filter>01. Obj\Hockey</Filter>
+    </ClCompile>
+    <ClCompile Include="HockeyObj.cpp">
+      <Filter>01. Obj\Hockey</Filter>
+    </ClCompile>
+    <ClCompile Include="HockeyPlayer.cpp">
+      <Filter>01. Obj\Hockey</Filter>
+    </ClCompile>
+    <ClCompile Include="AirHockeyScene.cpp">
+      <Filter>02.Scene\03.AirHockeyScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PingPongScene.cpp">
+      <Filter>02.Scene\04.PingPongScene</Filter>
+    </ClCompile>
+    <ClCompile Include="PingPongBall.cpp">
+      <Filter>01. Obj\PingPong</Filter>
+    </ClCompile>
+    <ClCompile Include="New_keyMgr.cpp">
+      <Filter>03.Design\09.New_KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeMgr.cpp">
+      <Filter>03.Design\10.TimeMgr</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DefaultWindow.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="DefaultWindow.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
